@@ -1,0 +1,35 @@
+html,body,#root{
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.main{
+  height: 100%;
+  width: 100%;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .body{
+  width: 500px;
+  height: 500px;
+  border-radius: 6px;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;;
+  background-color: aquamarine;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;align-items: center;
+}
+.main .body input{
+  width: 80%;
+  font-size: larger;
+  margin: 3px;
+  border-radius: 4px;
+}
+.body button{
+  font-size: larger;
+  border-radius: 4px;
+}
